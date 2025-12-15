@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>媽媽的小工具</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="background-animation"></div>
+
+    <main class="container">
+      <header>
+        <h1>媽媽的小工具</h1>
+        <p>請選擇一個工具開始使用</p>
+      </header>
+
+      <div id="app-grid" class="grid-container">
+        <!-- Dynamic content will be loaded here -->
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>正在載入工具...</p>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
